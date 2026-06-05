@@ -43,7 +43,7 @@ array[PRODUCTS, LINES] of var 0..1000: produce;
 % );
 
 % ต้นทุนรวม
-var int: total_cost = sum(p in PRODUCTS, l in LINES)(unit_cost[p,l] * produce[p,l]);
+% var int: total_cost = ...;
 
 % TODO 4: solve minimize total_cost
 solve satisfy;  % แก้เป็น minimize
