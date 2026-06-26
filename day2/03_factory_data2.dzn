@@ -2,8 +2,8 @@
 %% โมเดลเดิมใช้ได้เลย! เพียงแค่เปลี่ยน data file
 %% รันด้วย: minizinc 03_production_generic.mzn 03_factory_data2.dzn
 
-PRODUCTS  = { Alpha, Beta, Gamma, Delta };
-RESOURCES = { Labor, Material, Machine };
+n_products  = 4;
+n_resources = 3;
 
 profit   = [600, 900, 750, 1100];
 capacity = [200, 250, 160];
